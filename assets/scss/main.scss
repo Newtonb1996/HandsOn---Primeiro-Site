@@ -1,0 +1,61 @@
+.container {
+  width: 1024px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  /* Esse class .row é uma herança então ele trabalha o flex row de forma geral.*/
+  flex-direction: row;
+}
+
+.web-designer {
+  align-items: center;
+  /* Esse class .web-designer vai trabalhar o article, , h1 , h2 , p , o botão saiba mais e o figcaption.*/
+  justify-content: space-between;
+  article {
+    width: 250px;
+
+    h1 {
+      font-size: 70px;
+      line-height: 90%;
+      font-weight: 400;
+      color: $color-primaria;
+    }
+
+    h2 {
+      font-size: 30px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      /* O letter-spacing serve pra deixar um espaço entre as letras de uma palavra ou frase.*/
+      line-height: 200%;
+      /* O line-height 200% serviu pra deixar um espaçamento entre o h1 e h2.*/
+      color: $color-primaria;
+    }
+
+
+    p {
+      color: $color-secundaria;
+      font-weight: 450;
+      margin: 10px 0 40px;
+      /* O margin: 10px 0 40px significa que foi dado 10px de espaçamento em cima , 0px de lado e 40px em baixo do <p>.*/
+    }
+
+    
+    figcaption {
+        img {
+        margin-right: 2cm;
+        margin: 1cm;
+      }
+    }
+
+  }
+
+}
+
+body {
+  background: url(./images/dfb0mz2-ede6749c-6836-4d35-8a79-f679be6779d6.jpg) no-repeat;
+  background-size: cover;
+}

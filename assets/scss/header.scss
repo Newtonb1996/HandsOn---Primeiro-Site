@@ -1,0 +1,25 @@
+  header {
+      section{
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav 
+      ul{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+      li{
+          padding:0 18px;
+        }
+      }
+  
+      
+    li a{
+        margin: 0px 15px;
+        color:rgba(0,0,0,1.5);
+        font-weight:bolder
+      }
+  }
+ 
+
